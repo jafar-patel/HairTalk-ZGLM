@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { SiteProvider } from './context/SiteContext'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -50,7 +50,7 @@ export default function App() {
   return (
     <ErrorBoundary>
       <SiteProvider>
-        <HashRouter>
+        <BrowserRouter>
           <Navbar />
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -63,7 +63,7 @@ export default function App() {
             <Route path="/admin" element={<AdminPage />} />
           </Routes>
           <Footer />
-        </HashRouter>
+        </BrowserRouter>
       </SiteProvider>
     </ErrorBoundary>
   )

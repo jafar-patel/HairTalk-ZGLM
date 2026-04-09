@@ -112,7 +112,7 @@ interface SiteContextType {
 
 const defaultHero: HeroContent = {
   badge: "Auckland's Premier Hair Salon",
-  headline: 'Beautiful Blonde,\nSilky Smooth,\nConfidence Restored',
+  headline: 'Beautiful Blonde,\nSilky Smoothed,\nConfidence Restored',
   subheadline: "Auckland's go-to salon for expert blonde colouring, balayage, keratin treatments, nanoplasty, and modern hair transformations.",
 };
 

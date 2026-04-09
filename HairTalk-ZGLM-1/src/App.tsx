@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { SiteProvider } from './context/SiteContext'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
